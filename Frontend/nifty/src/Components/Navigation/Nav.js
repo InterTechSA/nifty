@@ -44,8 +44,6 @@ const Navbar = () => {
     <Nav>
       <NavLogo to="/">Nifty</NavLogo>
       <NavMenu>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/contact">Contact Us</NavLink>
         <NavLink to="/signin">Sign In</NavLink>
         <NavLink to="/signup">Sign Up</NavLink>
       </NavMenu>
