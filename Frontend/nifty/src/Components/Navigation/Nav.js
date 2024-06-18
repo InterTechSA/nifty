@@ -6,7 +6,8 @@ const Navbar = () => {
   return (
     <Nav>
       <NavLink to="/">Nifty</NavLink>
-      <Container>
+      <Container
+        mobileFlexDirection={'row'}>
         <NavLink to="/signin">Sign In</NavLink>
         <NavLink to="/signup">Sign Up</NavLink>
       </Container>
